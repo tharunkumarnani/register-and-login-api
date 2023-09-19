@@ -1,0 +1,23 @@
+###
+
+POST http://localhost:3000/users/
+Content-Type: application/json
+
+{   
+    "name":"Tharun kumar",
+    "username":"tharunk123",
+    "password": "tharunk@456",
+    "gender": "Male",
+    "location":"bengaluru"
+}
+
+
+###
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"tharunk123",
+    "password": "tharunk@456"
+}
